@@ -160,6 +160,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/source/assets/images/projects/kraeuterfrauen/slider_1.png": {
+		"ft": 32768,
+		"iS": 990525,
+		"oA": 0,
+		"oAP": "/build/assets/images/projects/kraeuterfrauen/slider_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/images/projects/kraeuterfrauen/slider_2.jpg": {
+		"ft": 16384,
+		"iS": 387286,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/images/projects/kraeuterfrauen/slider_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/source/assets/js/_cycle.js": {
 		"bF": 0,
 		"ft": 64,

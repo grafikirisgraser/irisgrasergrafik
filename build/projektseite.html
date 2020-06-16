@@ -12,6 +12,7 @@
   <!-- <link rel="shortcut icon" href="./bilder/favicon.png"> -->
   <link rel="stylesheet" href="https://use.typekit.net/kdv4rss.css">
   <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="http://malsup.github.com/jquery.cycle2.js"></script>
   <script src="iris.js"></script>
   <script type="application/ld+json">
   {
@@ -44,9 +45,19 @@
 <div class="sektion" id="projektname">
   <h2>Toggenburger Kräuterfrauen</h2>
   <p class="text">Die Webseite der Toggenburger Kräuterfrauen bekam ein Redesign! Um ihre leckeren Tee- und Kräutermischungen optimal präsentieren zu können wurde auch der Onlineshop neu und übersichtlicher aufgezogen. Ausserdem wurde besonders auf die benutzerfreundliche Bedienung an Mobilgeräten geachtet. Die Webseite: www.kraeuterfrauen.com</p>
-  <div class="bild">
-
-  </div>
+  <div class="cycle-slideshow" class="bild"
+      data-cycle-fx=scrollHorz
+      data-cycle-timeout=0
+      data-cycle-prev="#prev"
+      data-cycle-next="#next">
+    <img src="./assets/images/projects/kraeuterfrauen/slider_1.png">
+    <img src="./assets/images/projects/kraeuterfrauen/slider_2.jpg">
+</div>
+<div id=outside>
+    <div class=center>
+        <span id=prev>&lt;&lt;Prev </span>
+        <span id=next> Next&gt;&gt;</span>
+    </div>
   <ul class="text">
     <li>Fotografie Banner: Anna Menzi</li>
     <li>Webdesign: Iris Graser</li>

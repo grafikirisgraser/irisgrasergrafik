@@ -125,6 +125,7 @@ p, a, ul {
 
 .text {
   grid-column: 2/5;
+  margin-bottom: 1em;
 }
 
 .header {
@@ -331,9 +332,21 @@ p, a, ul {
   background-position: center;
 }
 
-.bild {
-  background-color: grey;
+.bild, .cycle-slideshow {
+  outline: 1px dotted red;
   grid-column: 2/5;
   height: 400px;
   grid-row: 3/4;
+}
+
+.cycle-slideshow {
+  position: relative;
+}
+
+.outside {
+  outline: 1px dotted yellow;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
 }

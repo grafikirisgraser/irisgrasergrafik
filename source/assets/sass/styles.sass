@@ -43,6 +43,7 @@ p, a, ul
 
 .text
   grid-column: 2/5
+  margin-bottom: 1em
 
 // Kopf_____________________________________________________________________
 
@@ -227,8 +228,16 @@ p, a, ul
   background-repeat: no-repeat
   background-size: cover
   background-position: center
-.bild
-  background-color: grey
+.bild, .cycle-slideshow
+  outline: 1px dotted red
   grid-column: 2/5
   height: 400px
   grid-row: 3/4
+.cycle-slideshow
+  position: relative
+.outside
+  outline: 1px dotted yellow
+  height: 100px
+  width: 200px
+  position: absolute
+  bottom: 0
