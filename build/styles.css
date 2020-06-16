@@ -127,6 +127,13 @@ p, a, ul {
   grid-column: 2/5;
   margin-bottom: 1em;
 }
+.text a {
+  font-style: italic;
+  background-image: linear-gradient(black, black);
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-position: 0 95%;
+}
 
 .header {
   position: fixed;
@@ -332,21 +339,27 @@ p, a, ul {
   background-position: center;
 }
 
-.bild, .cycle-slideshow {
-  outline: 1px dotted red;
+.bild, .slider {
   grid-column: 2/5;
-  height: 400px;
+  height: auto;
   grid-row: 3/4;
-}
-
-.cycle-slideshow {
   position: relative;
+  margin-bottom: 1em;
+}
+.bild .cycle-slideshow, .slider .cycle-slideshow {
+  height: auto;
 }
 
-.outside {
-  outline: 1px dotted yellow;
-  height: 100px;
-  width: 200px;
+#outside #prev, #outside #next {
+  width: 40px;
+  cursor: pointer;
   position: absolute;
-  bottom: 0;
+  top: 48%;
+}
+#outside #prev {
+  left: -60px;
+  transform: scaleX(-1);
+}
+#outside #next {
+  right: -60px;
 }

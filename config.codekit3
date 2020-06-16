@@ -15,6 +15,25 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/source/_fuss.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -119,12 +138,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/source/assets/images/icons/burger.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/assets/images/icons/burger.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/source/assets/images/icons/mail.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/build/assets/images/icons/mail.svg",
 		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/source/assets/images/icons/pfeil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/assets/images/icons/pfeil.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -149,6 +188,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/source/assets/images/icons/x.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/assets/images/icons/x.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/source/assets/images/projects/kraeuterfrauen/banner.jpg": {
 		"ft": 16384,
 		"iS": 960338,
@@ -162,7 +211,7 @@
 		},
 	"/source/assets/images/projects/kraeuterfrauen/slider_1.png": {
 		"ft": 32768,
-		"iS": 990525,
+		"iS": 361604,
 		"oA": 0,
 		"oAP": "/build/assets/images/projects/kraeuterfrauen/slider_1.png",
 		"oF": 0,
@@ -173,7 +222,7 @@
 		},
 	"/source/assets/images/projects/kraeuterfrauen/slider_2.jpg": {
 		"ft": 16384,
-		"iS": 387286,
+		"iS": 14185601,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/images/projects/kraeuterfrauen/slider_2.jpg",
