@@ -110,6 +110,12 @@ h2 {
   position: relative;
   margin-bottom: 1.5em;
 }
+h2::selection {
+  background: rgba(254, 198, 1, 0.8);
+}
+h2::-moz-selection {
+  background: rgba(254, 198, 1, 0.8);
+}
 h2::after {
   content: "___";
   position: absolute;
@@ -117,15 +123,26 @@ h2::after {
   left: calc(50% - 12px);
 }
 
-p, a, ul {
+p, a, ul, li {
   font-weight: 300;
   line-height: 1.36em;
   text-decoration: none;
+}
+p::selection, a::selection, ul::selection, li::selection {
+  background: rgba(254, 198, 1, 0.8);
+}
+p::-moz-selection, a::-moz-selection, ul::-moz-selection, li::-moz-selection {
+  background: rgba(254, 198, 1, 0.8);
 }
 
 .text {
   grid-column: 2/5;
   margin-bottom: 1em;
+}
+@media (max-width: 800px) {
+  .text {
+    grid-column: 1/6;
+  }
 }
 .text a {
   font-style: italic;
@@ -346,6 +363,12 @@ p, a, ul {
   position: relative;
   margin-bottom: 1em;
 }
+@media (max-width: 800px) {
+  .bild, .slider {
+    grid-column: 1/6;
+    margin-bottom: 2em;
+  }
+}
 .bild .cycle-slideshow, .slider .cycle-slideshow {
   height: auto;
 }
@@ -356,10 +379,36 @@ p, a, ul {
   position: absolute;
   top: 48%;
 }
+@media (max-width: 800px) {
+  #outside #prev, #outside #next {
+    top: auto;
+    bottom: -2em;
+  }
+}
 #outside #prev {
   left: -60px;
   transform: scaleX(-1);
 }
+@media (max-width: 800px) {
+  #outside #prev {
+    left: 40%;
+  }
+}
+@media (max-width: 600px) {
+  #outside #prev {
+    left: 33%;
+  }
+}
 #outside #next {
   right: -60px;
+}
+@media (max-width: 800px) {
+  #outside #next {
+    right: 40%;
+  }
+}
+@media (max-width: 600px) {
+  #outside #next {
+    right: 33%;
+  }
 }

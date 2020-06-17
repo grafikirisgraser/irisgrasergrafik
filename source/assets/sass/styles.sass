@@ -15,6 +15,7 @@ $text: #1b1b1b
 body
   margin: 0 2em 1em 2em
 
+
 .sektion
   margin: 0 auto
   padding-bottom: 3.5em
@@ -30,26 +31,37 @@ h2
   font-weight: 700
   position: relative
   margin-bottom: 1.5em
+  &::selection
+    background: rgba($gelb, 0.8)
+  &::-moz-selection
+    background: rgba($gelb, 0.8)
   &::after
     content: "___"
     position: absolute
     bottom: -20px
     left: calc(50% - 12px)
 
-p, a, ul
+p, a, ul, li
   font-weight: 300
   line-height: 1.36em
   text-decoration: none
+  &::selection
+    background: rgba($gelb, 0.8)
+  &::-moz-selection
+    background: rgba($gelb, 0.8)
 
 .text
   grid-column: 2/5
   margin-bottom: 1em
+  +bp (maxi)
+    grid-column: 1/6
   a
     font-style: italic
     background-image: linear-gradient(black, black)
     background-repeat: no-repeat
     background-size: 100% 1px
     background-position: 0 95%
+
 
 
 // Kopf_____________________________________________________________________
@@ -242,6 +254,9 @@ p, a, ul
   grid-row: 3/4
   position: relative
   margin-bottom: 1em
+  +bp (maxi)
+    grid-column: 1/6
+    margin-bottom: 2em
   .cycle-slideshow
     height: auto
 #outside
@@ -250,8 +265,19 @@ p, a, ul
     cursor: pointer
     position: absolute
     top: 48%
+    +bp (maxi)
+      top: auto
+      bottom: -2em
   #prev
     left: -60px
     transform: scaleX(-1)
+    +bp (maxi)
+      left: 40%
+    +bp (midi)
+      left: 33%
   #next
     right: -60px
+    +bp (maxi)
+      right: 40%
+    +bp (midi)
+      right: 33%
